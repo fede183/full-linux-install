@@ -1,0 +1,9 @@
+[submodule "suckless-configs"]
+	path = suckless-configs
+	url = https://github.com/fede183/suckless-configs.git
+[submodule "vim-configs"]
+	path = vim-configs
+	url = https://github.com/fede183/vim-configs.git
+[submodule "mutt-configs"]
+	path = mutt-configs
+	url = https://github.com/fede183/mutt-configs.git

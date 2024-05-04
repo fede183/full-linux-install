@@ -1,0 +1,4 @@
+#!/bin/sh
+
+[ -f Download/capture.jpg ] && rm Download/capture.jpg
+maim -s Download/capture.jpg

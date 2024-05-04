@@ -1,0 +1,29 @@
+#!/bin/sh
+
+echo "-- Full Install --"
+
+bash suckless-configs/full-instalation
+
+bash install-scripts/install-utilities
+# Browser will not be install with this script
+# bash install-scripts/install-browser
+bash install-scripts/install-coder-tools
+bash install-scripts/install-fonts
+bash install-scripts/install-steam
+bash install-scripts/install-email
+bash install-scripts/install-virtual-machine
+
+echo "-- Get Repositories --"
+git submodule update --init --recursive --remote
+echo "-- Get Repositories End"
+
+bash setup-scripts/personal-setups &
+bash setup-scripts/setting-transmission &
+bash setup-scripts/citrix-config &
+wait
+
+echo "-- Autoremove --"
+sudo pacman -R $(sudo pacman -Qdtq)
+echo "-- Autoremove End --"
+
+echo "-- Full Install End --"
