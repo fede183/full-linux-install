@@ -1,4 +1,4 @@
 #!/bin/sh
 
-[ -f Download/capture.jpg ] && rm Download/capture.jpg
-maim -s Download/capture.jpg
+[ -f Download/capture.jpg ] && rm ~/Downloads/capture.jpg
+maim -s ~/Downloads/capture.jpg
