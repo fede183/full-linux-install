@@ -2,8 +2,6 @@
 
 echo "-- Full Install --"
 
-bash suckless-configs/full-instalation
-
 bash install-scripts/install-utilities
 # Browser will not be install with this script
 # bash install-scripts/install-browser
@@ -17,6 +15,7 @@ echo "-- Get Repositories --"
 git submodule update --init --recursive --remote
 echo "-- Get Repositories End"
 
+bash suckless-configs/full-instalation &
 bash setup-scripts/personal-setups &
 bash setup-scripts/setting-transmission &
 bash setup-scripts/citrix-config &
