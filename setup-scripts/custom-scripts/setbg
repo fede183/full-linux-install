@@ -4,7 +4,7 @@ wallpaper_dir=~/.config/wall.png
 
 [ -f "$1" ] && cp "$1" $wallpaper_dir && notify-send -i $wallpaper_dir "Wallpaper Changed"
 
-[ -d "$1" ] && mv "find "$1"/*.{jpg,jpeg,png} -type f | shuf -n 1" $wallpaper_dir && notify-send -i $wallpaper_dir "Random Wallpaper Chosen"
+[ -d "$1" ] && cp $(find "$1" -type f \( -iname \*.jpg -o -iname \*.jpeg -o -iname \*.png \) | shuf -n 1) $wallpaper_dir && notify-send -i $wallpaper_dir "Random Wallpaper Chosen"
 
 # If pywal is installed, use it.
 type wal >/dev/null 2>&1 && { wal -c
