@@ -1,0 +1,15 @@
+#!/bin/sh
+
+echo "Restoring torrents"
+
+SCRIPTPATH=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+torrents=$(ls $SCRIPTPATH/torrents/)
+
+for torrent in $torrents; do
+	torrent_file="$SCRIPTPATH/torrents/$torrent"
+	echo "$TorrentFile"
+	transmission-remote -a $torrent_file 
+done
+
+echo "Finish restoring torrents"

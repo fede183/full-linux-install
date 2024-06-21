@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo "Saving the list of current torrents"
+
+SCRIPTPATH=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+[ -d $SCRIPTPATH/torrents ] && rm -rf $SCRIPTPATH/torrents
+
+cp -r ~/.config/transmission-daemon/torrents/ $SCRIPTPATH/
+
+echo "Finish saving the list of current torrents"
