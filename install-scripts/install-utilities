@@ -25,4 +25,8 @@ xargs -rxa $SCRIPTPATH/utilities -- sudo pacman -Sy --noconfirm --
 
 echo "-- Install Utilities End --"
 
+echo "-- Install Yay Utilities --"
+
 xargs -rxa $SCRIPTPATH/yay-programs -- yay --noconfirm --aur --answerclean All --answerdiff None --
+
+echo "-- Install Yay Utilities End --"

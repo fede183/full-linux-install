@@ -28,13 +28,13 @@ xdg_file=/usr/share/mime/packages/application-x-ica.xml
 sudo touch $xdg_file
 
 sudo bash -c "sudo cat <<EOT >> ${xdg_file}
-<?xml version="1.0" encoding="UTF-8"?>
-<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
-	<mime-type type="application/x-ica">
+<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<mime-info xmlns=\"http://www.freedesktop.org/standards/shared-mime-info\">
+	<mime-type type=\"application/x-ica\">
 	    <comment>ica file</comment>
-	    <icon name="application-x-ica"/>
+	    <icon name=\"application-x-ica\"/>
 	    <glob-deleteall/>
-	    <glob pattern="*.ica"/>
+	    <glob pattern=\"*.ica\"/>
 	</mime-type>
 </mime-info>
 EOT"
