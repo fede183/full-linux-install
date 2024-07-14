@@ -2,8 +2,8 @@ bluez
 bluez-utils
 maim
 transmission-cli
-qemu-full 
-virt-manager 
+qemu-full
+virt-manager
 virt-viewer
 groff
 zathura
