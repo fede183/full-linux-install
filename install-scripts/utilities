@@ -19,3 +19,5 @@ qutebrowser
 valgrind
 vulkan-radeon
 sxiv
+xf86-video-amdgpu
+xf86-video-ati
