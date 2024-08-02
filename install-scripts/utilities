@@ -21,3 +21,6 @@ vulkan-radeon
 sxiv
 xf86-video-amdgpu
 xf86-video-ati
+lib32-vulkan-radeon
+lib32-vulkan-mesa-layers
+lib32-vulkan-validation-layers
