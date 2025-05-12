@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "Restoring the saves of DMC3"
+
+[ -d 'SavesDir' ] && rsync -r ./SavesDir/ ~/.steam/steam/steamapps/common/Devil\ May\ Cry\ HD\ Collection/SavesDir/
+
+echo "Finish restoring the saves of DMC3"
