@@ -2,6 +2,6 @@
 
 echo "Saving the saves of DMC3"
 
-cp -r ~/.steam/steam/steamapps/common/Devil\ May\ Cry\ HD\ Collection/SavesDir .
+rsync -r ~/.steam/steam/userdata/63530408/631510/remote .
 
 echo "Finish saving the saves of DMC3"

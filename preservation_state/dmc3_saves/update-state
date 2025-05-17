@@ -2,6 +2,6 @@
 
 echo "Restoring the saves of DMC3"
 
-[ -d 'SavesDir' ] && rsync -r ./SavesDir/ ~/.steam/steam/steamapps/common/Devil\ May\ Cry\ HD\ Collection/SavesDir/
+[ -d 'remote' ] && rsync -r ./remote/ ~/.steam/steam/userdata/63530408/631510/remote
 
 echo "Finish restoring the saves of DMC3"
