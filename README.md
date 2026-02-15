@@ -1,15 +1,13 @@
 For get the repos when you clone
 ================================
 
-[docs/fastfetch\_example.jpg]
+![Fastfetch image](docs/fastfetch\_example.jpg)
 
 # Update submodules
 git submodule update --init --recursive --remote
 
 # TODO:
-- fix the chinese and japanese characters (probably it needs another font)
 - set alarms for events
-- complete docs with commands of git
 - script to download documentation and files from google drive
 - filter not executable programs in dmenu
 
