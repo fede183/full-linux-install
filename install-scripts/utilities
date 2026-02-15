@@ -23,3 +23,4 @@ lib32-vulkan-mesa-layers
 lib32-vulkan-validation-layers
 cargo
 rust-analyzer
+fastfetch

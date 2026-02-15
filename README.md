@@ -1,6 +1,8 @@
 For get the repos when you clone
 ================================
 
+[docs/fastfetch\_example.jpg]
+
 # Update submodules
 git submodule update --init --recursive --remote
 

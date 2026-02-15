@@ -11,4 +11,12 @@ cp -r $PERSONALSCRIPTPATH ~/.config
 
 echo "All the personal scripts were added/updated"
 
-echo "-- Configure Sersonal Scripts End --"
+echo "-- Configure Personal Scripts End --"
+
+echo "-- Configure Fastfetch Scripts --"
+FASTFETCHSCRIPTPATH=$SCRIPTPATH/fastfetch
+
+[ -d ~/.config/fastfech ] && rm -rf ~/.config/fastfetch
+cp -r $FASTFETCHSCRIPTPATH ~/.config
+
+echo "-- Configure Fastfetch Scripts End --"
