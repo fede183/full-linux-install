@@ -22,7 +22,7 @@ My whole archlinux instalation setup
 git submodule update --init --recursive --remote
 
 # TODO:
-- set alarms for events
+- set alarms for events, like emails
 - script to download documentation and files from google drive
 - filter not executable programs in dmenu
 
