@@ -19,7 +19,7 @@ My whole archlinux instalation setup
 - neomutt setups for email :e-mail:
 - citrix instalation and configuration for office work :man_office_worker:
 - llama.ccp for playing with AI models :robot:
-- opencode for AI code for free :money:
+- opencode for AI code for free :moneybag:
 
 ![Fastfetch image](docs/fastfetch\_example.jpg)
 
