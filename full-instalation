@@ -17,6 +17,7 @@ bash suckless-configs/full-instalation &
 bash setup-scripts/personal-setups &
 bash setup-scripts/setting-transmission &
 bash setup-scripts/citrix-config &
+bash custom-fastfetch/sync-to-computer &
 wait
 
 echo "-- Autoremove --"

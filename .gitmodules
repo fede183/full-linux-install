@@ -7,3 +7,6 @@
 [submodule "mutt-configs"]
 	path = mutt-configs
 	url = https://github.com/fede183/mutt-configs.git
+[submodule "custom-fastfetch"]
+	path = custom-fastfetch
+	url = https://github.com/fede183/custom-fastfetch.git
