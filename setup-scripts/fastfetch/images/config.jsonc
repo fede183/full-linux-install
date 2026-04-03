@@ -1,0 +1,117 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+	"type": "file",
+	"source": "~/.config/fastfetch/images/logo.txt",
+	"color": {
+		"1": "cyan",
+		"2": "green",
+		"3": "magenta",
+		"4": "red",
+		"5": "blue",
+		"6": "yellow",
+		"7": "\u001b[38;5;208m",
+		"8": "white"
+	}
+  },
+  "display": {
+    "separator": " - ",
+    "constants": [
+	"──────────────" // {$1}, used in Custom module
+    ]
+  },
+  "modules": [
+    {
+        "type": "title",
+	"keyColor": "magenta"
+    },
+    {
+        "type": "separator",
+	"keyColor": "magenta"
+    },
+    {
+        "type": "custom", // HardwareStart
+	"format": "{#92}┌{$1} Hardware {$1}{$1}┐{#}"
+    },
+    {
+        "type": "cpu",
+	"keyColor": "magenta"
+    },
+    {
+        "type": "gpu",
+	"keyColor": "magenta"
+    },
+    {
+        "type": "memory",
+	"keyColor": "magenta"
+    },
+    {
+        "type": "swap",
+	"keyColor": "magenta"
+    },
+    {
+        "type": "disk",
+	"keyColor": "magenta"
+    },
+    {
+        "type": "localip",
+	"keyColor": "red"
+    },
+    {
+        "type": "battery",
+	"keyColor": "red"
+    },
+    {
+        "type": "poweradapter",
+	"keyColor": "red"
+    },
+    {
+        "type": "display",
+	"keyColor": "red"
+    },
+    {
+        "type": "custom",
+        "format": "{#92}└{$1}────────────────────────{$1}┘{#}"
+    },
+    {
+        "type": "custom", // SoftwareStart
+	"format": "{#92}┌{$1} Software {$1}{$1}┐{#}"
+    },
+    {
+        "type": "os",
+	"keyColor": "blue"
+    },
+    {
+        "type": "host",
+	"keyColor": "blue"
+    },
+    {
+        "type": "kernel",
+	"keyColor": "blue"
+    },
+    {
+        "type": "packages",
+	"keyColor": "yellow"
+    },
+    {
+        "type": "shell",
+	"keyColor": "\u001b[38;5;208m"
+    },
+    {
+        "type": "wm",
+	"keyColor": "\u001b[38;5;208m"
+    },
+    {
+        "type": "terminal",
+	"keyColor": "\u001b[38;5;208m"
+    },
+    {
+        "type": "terminalfont",
+	"keyColor": "\u001b[38;5;208m"
+    },
+    {
+        "type": "custom",
+        "format": "{#92}└{$1}────────────────────────{$1}┘{#}"
+    }
+  ]
+}
