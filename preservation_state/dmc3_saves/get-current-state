@@ -1,7 +1,0 @@
-#!/bin/sh
-
-echo "Saving the saves of DMC3"
-
-rsync -r ~/.steam/steam/userdata/63530408/631510/remote .
-
-echo "Finish saving the saves of DMC3"
