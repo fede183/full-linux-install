@@ -10,3 +10,6 @@
 [submodule "custom-fastfetch"]
 	path = custom-fastfetch
 	url = https://github.com/fede183/custom-fastfetch.git
+[submodule "local-preservation-state"]
+	path = local-preservation-state
+	url = https://github.com/fede183/local-preservation-state.git
