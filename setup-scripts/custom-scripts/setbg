@@ -6,11 +6,4 @@ wallpaper_dir=~/.config/wall.png
 
 [ -d "$1" ] && cp $(find "$1" -type f \( -iname \*.jpg -o -iname \*.jpeg -o -iname \*.png \) | shuf -n 1) $wallpaper_dir && notify-send -i $wallpaper_dir "Random Wallpaper Chosen"
 
-# If pywal is installed, use it.
-type wal >/dev/null 2>&1 && { wal -c
-    wal -s -i $wallpaper_dir -o ~/.config/wal/postrun
-    xsetroot -name "fsignal:xrdb"
-    killall dwmblocks
-    setsid dwmblocks >/dev/null & } >/dev/null 2>&1
-
 xwallpaper --zoom $wallpaper_dir
