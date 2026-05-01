@@ -14,7 +14,6 @@ My whole archlinux instalation setup
 - steam cli :video_game:
 - pcsx2 emulator :video_game:
 - dolphin-emu emulator :video_game:
-- qemu-full for virtual machines :computer:
 - vim and nvim custom setups for text editor :page_facing_up:
 - neomutt setups for email :e-mail:
 - citrix instalation and configuration for office work :man_office_worker:
