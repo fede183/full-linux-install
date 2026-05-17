@@ -5,8 +5,7 @@ My whole archlinux instalation setup
 
 # It includes:
 - dwm setup configurations, including st, slstatus and dmenu :cupid:
-- qutebrowser for main internet browser :surfer:
-- librewolf for secondar internet browser :surfer:
+- librewolf for main internet browser :surfer:
 - zathura for reader :book:
 - mpv for video play :camera:
 - sxiv for image viewer :camera_flash:
