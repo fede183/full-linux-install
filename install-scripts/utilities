@@ -21,5 +21,3 @@ lib32-vulkan-validation-layers
 cargo
 rust-analyzer
 fastfetch
-spotify-player
-asciiquarium
