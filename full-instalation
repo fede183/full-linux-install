@@ -18,6 +18,7 @@ bash suckless-configs/full-instalation &
 bash setup-scripts/personal-setups &
 bash setup-scripts/setting-transmission &
 bash setup-scripts/citrix-config &
+bash setup-scripts/openrc-setup &
 bash custom-fastfetch/sync-to-computer &
 
 bash local-preservation-state/dmc3_saves/update-state &

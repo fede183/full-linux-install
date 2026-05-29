@@ -1,0 +1,6 @@
+#!/bin/sh
+
+rc-update add -U dbus default
+rc-update add -U pipewire default
+rc-update add -U pipewire-pulse default
+rc-update add -U wireplumber default

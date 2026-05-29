@@ -4,6 +4,7 @@ xorg
 xorg-xinit
 pipewire
 pipewire-pulse
+wireplumber
 pavucontrol
 libx11
 libxinerama
