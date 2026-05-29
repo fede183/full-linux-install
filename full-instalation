@@ -6,6 +6,7 @@ echo "-- Get Repositories --"
 bash submudule-update
 echo "-- Get Repositories End"
 
+bash install-scripts/install-yay
 bash install-scripts/install-utilities
 bash install-scripts/install-coder-tools
 bash install-scripts/install-fonts

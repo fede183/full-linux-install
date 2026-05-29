@@ -8,15 +8,6 @@ echo "-- Installing Dependencies --"
 # Installing dependencies
 xargs -rxa $INSTALL_SCRIPT_PATH/dependencies -- sudo pacman -Sy --noconfirm --
 
-# Install yay
-(
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-cd ..
-rm -rf yay
-)
-
 echo "-- Installing Dependencies End --"
 
 echo "-- Install Utilities --"
