@@ -23,5 +23,8 @@ gstreamer
 gst-plugins-good
 gst-libav
 xcompmgr
-wireplumber-openrc
+elogind-openrc
+networkmanager-openrc
+pipewire-openrc
 pipewire-pulse-openrc
+wireplumber-openrc
